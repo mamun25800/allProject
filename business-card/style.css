@@ -1,0 +1,35 @@
+
+body {
+    margin: 0px;
+    background:linear-gradient(#e63946,#f1faee);
+}
+.card{
+    display: flex;
+    width:400px;
+    margin:250px auto;
+    justify-content: space-between;
+    border:4px solid #1d3557;
+    border-bottom: 4px solid #e8dadc;
+    background-color: #a8dadc;
+    color:rgb(125, 196, 231);
+    border-radius: 5px;
+}
+.about{
+    margin:30px auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:26px;
+    text-shadow: 0px 0px 2px rgb(8, 8, 8);
+}
+.image{
+    display: flex;
+    background-color:#457b9d;
+    padding: 2px;
+    width: 150px;
+    height: 150px;
+    margin:23px;
+    border-radius: 20px;
+}
+#imm{
+    border-radius: 20px;
+}

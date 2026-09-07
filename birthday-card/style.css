@@ -1,0 +1,97 @@
+body{
+    margin:none;
+    text-align: center;
+    background:linear-gradient(#a2d2ff,#EFB0C9);
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    /* font-style: normal; */
+    color:#ffffff;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+}
+
+#naeem{
+    width: 150px;
+    border-radius: 50%;
+    border:5px solid #EFB0C9;
+}
+h1,h3,p{
+    text-shadow: 0px 0px 2px black;
+}
+#year{
+    background: #EFB0C9;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+#date{
+    background:#EFB0C9;
+    padding: 4px 6px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hovardiv{
+    margin-top: 50px;
+}
+.header{
+    margin:10px 0px 5px 0px;
+}
+.hovar{
+    margin:2px 0px 20px 0px;
+}
+.backgroundgift{
+    width: 400px;
+    height: 400px;
+    border:5px solid white;
+    border-radius: 5px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    margin:0px auto;
+}
+/* .dif{
+    width:400px;
+    height: 200px;
+    border:5px solid white;
+    border-radius: 5px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    margin:0px auto;
+} */
+#five{
+     height: 200px;/* ager kaj ta just ak line a korsi by using id  */
+} 
+#one:hover{
+    background-image: url("images/happy.gif");
+}
+#two:hover{
+    background-image: url("images/hot.gif");
+}
+#three:hover{
+    background-image: url("images/genius.gif");
+}
+#four:hover{
+    background-image: url("images/badass.gif");
+}
+#five:hover{
+    background-image: url("images/chears.gif");
+}
+
+#footer{
+    font-style:italic;
+    width: 400px;
+    margin:40px auto 20px;
+}
+a{
+    color:white;
+}
