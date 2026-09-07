@@ -1,0 +1,15 @@
+body{
+    margin:0;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px 20px 0px;
+}
+#num1,#num2{
+    margin: 2px;
+    padding: 2px;
+    border-bottom: 2px solid black;
+}
