@@ -1,0 +1,45 @@
+body{
+    margin: 2px;
+    box-sizing: border-box;
+    min-width: 400px;
+    min-height: 100px;
+}
+#input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid green;
+
+}
+#btn,#btn1{
+    margin:10px 0px;
+    padding: 10px 20px;
+    background-color: green;
+    color: aliceblue;
+    border:2px solid aliceblue;
+    box-shadow: 0px 0px 20px rgb(84, 94, 94);
+}
+#btn1{
+    color:green;
+    background-color: aliceblue;
+    border: 2px solid green;
+}
+ul{
+    padding: 1px;
+}
+li{
+    list-style: none;
+    color: green;
+    
+}
+a{
+    color: green;
+}
+#cmt{
+    background-color: aliceblue;
+    box-shadow: 0px 0px 30px rgb(231, 26, 26);
+    text-align: center;
+    margin: 40px 70px;
+    border-radius: 5px;
+}
