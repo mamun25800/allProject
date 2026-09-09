@@ -1,0 +1,33 @@
+@font-face {
+    font-family: ami;
+    src: url("fonts/Y2kill.ttf");
+}
+body{
+    margin: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: orange;
+    font-family: ami;
+    text-shadow: 0px 0px 2px black;
+}
+#btn{
+    color:white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 8px 50px;    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0px 0px 2px black;
+    
+}
+.emoji{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+#who{
+    margin-top: 30px ;
+    font-weight: 700;font-size: 50px;
+}
