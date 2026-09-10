@@ -4,6 +4,7 @@ let ulEl=document.querySelector("#ulEl")
 let btn1=document.querySelector("#btn1")
 let cmt=document.querySelector("#cmt")
 let btnt=document.querySelector("#btnt")
+let value=JSON.parse(localStorage.getItem("leads"))
 let leads=[]
 
 
@@ -30,6 +31,7 @@ btnt.addEventListener("click",function(){
 btn1.addEventListener("dblclick",function(){
     localStorage.clear()
     ulEl.innerHTML=``
+    leads=[]
 })
 btn1.addEventListener("mouseover",function(){
     let p=document.createElement("p")
@@ -55,7 +57,6 @@ function render(){
     
 }
 
-let value=JSON.parse(localStorage.getItem("leads"))
 if(value){
     leads=value
     render()
