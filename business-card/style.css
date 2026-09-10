@@ -2,6 +2,7 @@
 body {
     margin: 0px;
     background:linear-gradient(#e63946,#f1faee);
+    text-align: center;
 }
 .card{
     display: flex;
