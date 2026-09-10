@@ -1,8 +1,10 @@
 body{
     margin: 2px;
     box-sizing: border-box;
-    min-width: 400px;
+    min-width: 550px;
     min-height: 100px;
+    text-shadow: 0px 0px 2px black;
+    font-weight: 900;
 }
 #input{
     width: 100%;
@@ -10,15 +12,18 @@ body{
     padding: 10px;
     text-align: center;
     border: 2px solid green;
-
+    text-shadow: 0px 0px 2px black;
+    font-weight: 900;
 }
 #btn,#btn1,#btnt{
     margin:10px 0px;
     padding: 10px 20px;
     background-color: green;
     color: aliceblue;
-    border:1px solid rgb(174, 203, 233);
-    box-shadow: 0px 0px 50px rgb(126, 232, 232);
+    border:2px solid rgb(218, 227, 246);
+    box-shadow: 0px 0px 20px rgb(25, 61, 123);
+    text-shadow: 0px 0px 2px rgb(9, 8, 8);
+    font-weight: 900;
 }
 #btn1{
     color:green;
@@ -43,4 +48,14 @@ a{
     text-align: center;
     margin: 40px 70px;
     border-radius: 5px;
+}
+#see{
+    margin:10px 0px;
+    padding: 10px 20px;
+    background-color: rgb(92, 160, 211);
+    color: aliceblue;
+    border:1px solid rgb(174, 203, 233);
+    box-shadow: 0px 0px 20px rgb(7, 37, 103);
+    text-shadow: 0px 0px 2px black;
+    font-weight: 900;
 }

@@ -1,18 +1,21 @@
-let input=document.querySelector("#input")
-let btn=document.querySelector("#btn")
-let ulEl=document.querySelector("#ulEl")
-let btn1=document.querySelector("#btn1")
-let cmt=document.querySelector("#cmt")
-let btnt=document.querySelector("#btnt")
-let value=JSON.parse(localStorage.getItem("leads"))
-let leads=[]
+const input=document.querySelector("#input")
+const btn=document.querySelector("#btn")
+const ulEl=document.querySelector("#ulEl")
+const btn1=document.querySelector("#btn1")
+const cmt=document.querySelector("#cmt")
+const btnt=document.querySelector("#btnt")
+//const value=JSON.parse(localStorage.getItem("myleads"))
+const see=document.querySelector("#see")
+let leads=JSON.parse(localStorage.getItem("myleads"))||[]//mane prothome localstorage theke parse kori jodi vlaue na thake taile empy array rakhbo
+
 
 
 btn.addEventListener("click",function(){
+    if(input.value!=""){
     leads.push(input.value)
     input.value=""
-    render()
-    localStorage.setItem("leads",JSON.stringify(leads)) //akhane kintu amar leads veriable k stringify korse na okhane theke sudu data nisse
+    render(leads)
+    localStorage.setItem("myleads",JSON.stringify(leads))} //akhane kintu amar leads veriable k stringify korse na okhane theke sudu data nisse
 })
 
 // const tabs=[
@@ -22,8 +25,8 @@ btn.addEventListener("click",function(){
 btnt.addEventListener("click",function(){
     chrome.tabs.query({active:true,currentWindow:true},function(tabs){
         leads.push(tabs[0].url)
-        render()
-        localStorage.setItem("leads",JSON.stringify(leads))
+        localStorage.setItem("myleads",JSON.stringify(leads))
+        render(leads)
     })
 })
 
@@ -45,21 +48,24 @@ btn1.addEventListener("mouseover",function(){
     })
 })
 
-function render(){
+see.addEventListener("click",function(){
+    if(leads.length>0){
+        render(leads)
+    }
+})
+
+
+
+function render(arr){
     ulEl.innerHTML=``
-    for(let i=0;i<leads.length;i++){
+    for(let i=0;i<arr.length;i++){
         ulEl.innerHTML+=`
-        <a href='${leads[i]}' target='_blank'>
-        <li>${leads[i]}</li>
+        <a href='${arr[i]}' target='_blank'>
+        <li>${arr[i]}</li>
         <a/>
         `
     }
     
-}
-
-if(value){
-    leads=value
-    render()
 }
 
 
