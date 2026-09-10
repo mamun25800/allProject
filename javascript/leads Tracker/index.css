@@ -12,18 +12,18 @@ body{
     border: 2px solid green;
 
 }
-#btn,#btn1{
+#btn,#btn1,#btnt{
     margin:10px 0px;
     padding: 10px 20px;
     background-color: green;
     color: aliceblue;
-    border:2px solid aliceblue;
-    box-shadow: 0px 0px 20px rgb(84, 94, 94);
+    border:1px solid rgb(174, 203, 233);
+    box-shadow: 0px 0px 50px rgb(126, 232, 232);
 }
 #btn1{
     color:green;
     background-color: aliceblue;
-    border: 2px solid green;
+    border: 1px solid green;
 }
 ul{
     padding: 1px;
@@ -31,7 +31,8 @@ ul{
 li{
     list-style: none;
     color: green;
-    
+    margin-top: 8px;
+    margin-left: 5px;
 }
 a{
     color: green;
