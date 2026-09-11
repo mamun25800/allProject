@@ -1,4 +1,4 @@
-export   function getstockdata(){
+export function getstockdata(){
     return{
         name:"Mamun",
         symbol:"BDT",
@@ -6,3 +6,8 @@ export   function getstockdata(){
         time:new Date().toLocaleTimeString()
     }
 }
+
+// function (amni){
+//     return `amar name ${amni}`
+// }
+

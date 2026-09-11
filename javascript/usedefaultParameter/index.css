@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    margin: 5px;
+    padding: 5px;
+    width: 270px;
+    color: aliceblue;
+    text-shadow: 2px 0px 2px black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(46, 19, 223);
+}
+#second{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+#input{
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 200px;
+    height: 20px;
+}
+#btn{
+    width: 50px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(143, 143, 230);
+}
