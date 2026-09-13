@@ -6,7 +6,7 @@ function getimagepromise(url){
             im.id="img"
             im.addEventListener('load',()=> resolve(im))
             im.addEventListener('error',()=> reject(`this url ${url} image not found`))
-       },5000)
+       },1000)
     })
 }
 

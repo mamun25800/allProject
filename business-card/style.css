@@ -41,14 +41,13 @@ body {
     margin: 10px;
     justify-content: center;
 }
-.container{
+#container{
     background-color: blue;
     display: flex;
     flex-direction: column;
     min-width: 270px;
     margin: 5px;
     padding: 5px;
-    width: 270px;
     color: aliceblue;
     text-shadow: 2px 0px 2px black;
     border-radius: 10px;
