@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-image: url('./images/ghost.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+.nav{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+h1{
+    margin-top: 200px;
+}
+h4{
+    margin: 0px;
+}
+.card{
+    background-color: aliceblue;
+    color:black;
+    padding: 10px;
+    margin: 20px;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgb(248, 207, 207);
+}
+.text{
+    max-height: 100px;
+    overflow: hidden;
+}
+.btn{
+    margin-left: 330px;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.t{
+    margin :0;
+}

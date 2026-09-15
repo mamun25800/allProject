@@ -1,0 +1,12 @@
+{
+  "name": "kijani",
+  "version": "1.0.0",
+  "description": "ami pari kina check ",
+  "license": "ISC",
+  "author": "al mamun",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
