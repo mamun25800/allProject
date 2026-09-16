@@ -47,3 +47,35 @@ h4{
 .t{
     margin :0;
 }
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px ;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(23, 21, 21);
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 2px;
+}
+#fff{
+    margin: 20px 270px 0px 0px;
+}
+#time,#location,#title{
+    padding: 5px;
+    text-align: center;
+}
+#story{
+    padding:25px;
+    text-align: center;
+}
+#submit{
+    width: 60px;
+    padding: 6px 8px;
+    text-align: center;
+    margin: 20px auto;
+}
+#last{
+    margin: 10px;
+}

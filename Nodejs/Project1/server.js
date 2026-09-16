@@ -1,7 +1,7 @@
 
 import http from 'node:http'
 import { serveStatic } from './utils/serveStatic.js'
-import { handleGet } from './handlers/routeHandler.js'
+import { handleGet,handlePost } from './handlers/routeHandler.js'
 
 
 const __dirname=import.meta.dirname
@@ -12,6 +12,9 @@ const server  =http.createServer(async (req,res)=>{
     if(req.url==='/api'){
         if(req.method==='GET'){
             return await handleGet(res)
+        }
+        else if(req.method==='POST'){
+            handlePost(req,res)
         }
     }
 
