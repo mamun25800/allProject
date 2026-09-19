@@ -2,7 +2,7 @@ function getimagepromise(url){
     return new Promise((resolve,reject)=>{
        setTimeout(()=>{
             const im=new Image()
-            im.src=url
+            im.src=url 
             im.id="img"
             im.addEventListener('load',()=> resolve(im))
             im.addEventListener('error',()=> reject(`this url ${url} image not found`))
