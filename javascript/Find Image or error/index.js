@@ -1,5 +1,5 @@
 function getimagepromise(url){
-    return new Promise((resolve,reject)=>{
+    return new Promise((resolve,reject)=>{/// resolve reject function 
        setTimeout(()=>{
             const im=new Image()
             im.src=url 

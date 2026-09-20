@@ -1,4 +1,4 @@
-import property from "./property.js";
+
 import defaultproperty from "./defaultproperty.js";
 
 function renderproperty(pro=[defaultproperty]){
